@@ -1,3 +1,9 @@
+<p align="center">
+<img src="https://img.shields.io/badge/S24+_Exynos-Optimized-brightgreen" alt="Device">
+<img src="https://img.shields.io/badge/Status-Stable-blue" alt="Status">
+<img src="https://img.shields.io/badge/License-MIT-blueviolet" alt="License">
+</p>
+
 ![](assets/ruvomain.jpg)
 
 # Ruvomain Protocol
