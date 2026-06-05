@@ -50,4 +50,4 @@ If you have logs or metrics from other Exynos/Snapdragon configurations, your fe
 ## *References & Tools*
 - [Shizuku](https://github.com/rikkaapps/shizuku)
 - [Canta](https://github.com/samolego/Canta)
-- [AppOps](https://github.com/rikkaapps/AppOps)
+- [AppOps](https://appops.rikka.app/)
