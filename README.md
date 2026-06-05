@@ -17,7 +17,7 @@ The Ruvomain Protocol is a modular, audited, and reproducible architecture desig
 
 ## 🚀 Key Results (One UI 8.5)
 *   **SoT:** **11h+** on a single charge.
-*   **Idle Drain:****~0.0%/h** (Near-zero).
+*   **Idle Drain:** **~0.0%/h** (Near-zero).
 *   **Performance:** AnTuTu v11 **~2.1M** (Top 5%).
 *   **Thermals:** Stable **~37°C** under mixed load.
 *   **Knox Integrity:** **100% Safe** (No root, no bootloader unlocking).
