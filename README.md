@@ -1,7 +1,7 @@
-# RuvomainProtocol
+# Ruvomain Protocol
 **The Industrialized Approach to Android Performance & Privacy.**
 
-The Ruvomain Protocol is a modular, audited, and reproduciblearchitecture designed to maximize hardware efficiency for the Samsung Galaxy S24+ (Exynos 2400) without rootaccess. By eliminating non-essential telemetry and background bloatware, we achieve true "Deep Sleep" states, elitethermal management, and 11h+ SOT.
+The Ruvomain Protocol is a modular, audited, and reproducible architecture designed to maximize hardware efficiency for the Samsung Galaxy S24+ (Exynos 2400) without rootaccess. By eliminating non-essential telemetry and background bloatware, we achieve true "Deep Sleep" states, elite thermal management, and 11h+ SOT.
 
 ---
 
@@ -15,9 +15,9 @@ The Ruvomain Protocol is a modular, audited, and reproduciblearchitecture design
 ---
 
 ## 💡 The Philosophy
-The conventional approach to "debloating" (manually running randomADB commands) is obsolete. It lacks consistency and is impossible to maintain. **The Ruvomain Protocol** shifts thisparadigm by treating system optimization as an **industrialized engineering process**.
+The conventional approach to "debloating" (manually running randomADB commands) is obsolete. It lacks consistency and is impossible to maintain. **The Ruvomain Protocol** shifts this paradigm by treating system optimization as an **industrialized engineering process**.
 
-We don't "trick" the system;we curate it. By surgically removing non-essential services while maintaining framework stability, we ensure the device performs at its peak potential.
+We don't "trick" the system; we curate it. By surgically removing non-essential services while maintaining framework stability, we ensure the device performs at its peak potential.
 
 ---
 
@@ -37,7 +37,7 @@ The protocol is modular, allowing users to choose their level of optimization:
 
 ## ⚙️ Quick Start
 1.  **Environment:** Install [Shizuku](https://shizuku.rikka.app/) and[Canta](https://samolego.github.io/Canta/).
-2.  **Activate:** Enable DeveloperOptions > Wireless Debugging. Pair Shizuku.
+2.  **Activate:** Enable Developer Options > Wireless Debugging. Pair Shizuku.
 3.  **Deploy:** Import the preferred `.json` file from the `/presets` folder into Canta.
 4.  **Finalize:** Reboot the device.
 
@@ -60,8 +60,8 @@ Avoid heavy "Good Guardian" suites that introducetheir own background overhead. 
 
 ##👥 Community & Credits
 This protocol is a living project.
-*   **Validation:** Rigorous cross-verification with[Willie_169](https://github.com/Willie169).
-*   **Architecture:** Formal acknowledgment of the Canta workflowby [Samolego](https://samolego.github.io/Canta/).
+*   **Validation:** Rigorous cross-verification with [Willie_169](https://github.com/Willie169).
+*   **Architecture:** Formal acknowledgment of the Canta workflow by [Samolego](https://samolego.github.io/Canta/).
 *   **Community Testing:** Special thanks to @ric69 for empirical field-testing of Tier 1 stability.
 
 ---
