@@ -1,3 +1,5 @@
+![](assets/ruvomain.jpg)
+
 # Ruvomain Protocol
 **The Industrialized Approach to Android Performance & Privacy.**
 
