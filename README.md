@@ -48,7 +48,7 @@ The protocol is modular, allowing users to choose their level of optimization:
 ## ⚙️ Quick Start
 1.  **Environment:** Install [Shizuku](https://shizuku.rikka.app/) and[Canta](https://samolego.github.io/Canta/).
 2.  **Activate:** Enable Developer Options > Wireless Debugging. Pair Shizuku.
-3.  **Deploy:** Import the preferred `.json` file from the `/presets` folder into Canta.
+3.  **Deploy:** Import the preferred `.json` file from the `/Presets` folder into Canta.
 4.  **Finalize:** Reboot the device.
 
 ---
