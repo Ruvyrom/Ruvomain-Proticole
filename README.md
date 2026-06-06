@@ -37,10 +37,9 @@ The protocol is modular, allowing users to choose their level of optimization:
 
 | Tier | Strategy| Recommended For |
 |:---|:---|:---|
-| **Tier 1 (Safe)** | Redundancy & Telemetry | All users seeking immediate gains. |
-| **Tier 2 (Balanced)** | AI Telemetry & Cloud Bloat | Users prioritizing privacy & efficiency. |
-| **Tier 3 (Surgical)** | Ghost Mode (System Core) | Advanced users building a bare-metal experience. |
-| **Extreme** | Combined "Total War" | Power-users (Full audit highly recommended). |
+| **Tier 1 (Stable/Conservative)** | Redundancy & Telemetry | All users seeking immediate gains. |
+| **Tier 2 (Advanced/Balanced)** | AI Telemetry & Cloud Bloat | Users prioritizing privacy & efficiency. |
+| **Tier 3 (Surgical/Extreme)** | Ghost Mode (System Core) | Advanced users building a bare-metal experience. |
 
 *See `/presets` for configuration files.*
 
