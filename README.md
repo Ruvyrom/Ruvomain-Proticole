@@ -4,6 +4,11 @@
 <img src="https://img.shields.io/badge/Status-Stable-blue" alt="Status">
 <img src="https://img.shields.io/badge/License-MIT-blueviolet" alt="License">
 <img src="https://img.shields.io/badge/OS-Android 16 OneUI 8.5-red" alt="License">
+  
+![Status](https://img.shields.io/badge/No-Root-yellow)
+![Status](https://img.shields.io/badge/Thermal-Optimized-green)
+![Status](https://img.shields.io/badge/Privacy-Focused-purple)
+![Status](https://img.shields.io/badge/Shizuku-Powered-orange)
 
 </p>
 
