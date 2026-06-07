@@ -62,6 +62,13 @@ Transparency is a core pillar.
 *   **Critical Safeguards:** Do **not** disable packages like `com.sec.location.nsflp2` (GPS) or `com.samsung.android.smartmirroring`(Smart View).
 *   **System Integrity:** Avoid removing `com.samsung.android.lool` (Device Care). Disabling it may cause audio stuttering and erratic behavior during app transitions, as ithandles key background resource management.
 
+`com.samsung.android.scpm`
+SoundAlive/Audio quality issues
+
+Any package containing:
+`com.samsung.internal.systemui.navbar`:
+Navigation issues
+
 *   You can disable but if you want maintain Emergency Alerts, you must not disable the following packages:
 `com.google.android.cellbroadcastreceiver`,
 `com.google.android.cellbroadcastservice`
