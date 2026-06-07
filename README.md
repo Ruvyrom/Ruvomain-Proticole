@@ -7,7 +7,7 @@
 <img src="https://img.shields.io/badge/No-Root-yellow">
 <img src="https://img.shields.io/badge/Thermal-Optimized-green">
 <img src="https://img.shields.io/badge/Privacy-Focused-purple">
-<img src="https://img.shields.io/badge/Shizuku-Powered-orange">
+<img src="https://img.shields.io/badge/Shizuku-Powered-orange"><img src="https://img.shields.io/badge/S24+-Debloat-brown">
 </p>
 
 ![](assets/ruvomain.jpg)
