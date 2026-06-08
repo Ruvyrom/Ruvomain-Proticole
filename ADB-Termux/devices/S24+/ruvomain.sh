@@ -1,6 +1,22 @@
 #!/usr/bin/env bash
 
-# --- 1. Dependency Check (Auto-install jq) ---
+# --- Model verification ---
+REQUIRED_MODEL="SM-S926B"
+# Detect model locally or via ADB
+CURRENT_MODEL=$(getprop ro.product.model 2>/dev/null || adb shell getprop ro.product.model)
+
+if [ "$CURRENT_MODEL" != "$REQUIRED_MODEL" ]; then
+echo"⚠️ WARNING: Detected device model: $CURRENT_MODEL"
+echo "This script is specifically optimized for the $REQUIRED_MODEL."
+echo "Running it on a different model may cause system instability or bootloops."
+read -p "Do you want to proceed anyway? (y/N) " choice
+case "$choice" in
+y|Y ) echo"Proceeding with caution..." ;;
+* ) echo "Safety abort. Operation cancelled."; exit 1 ;;
+esac
+fi
+
+# --- Dependency Check (Auto-install jq) ---
 if ! command -v jq &> /dev/null; then
 echo "Dependency 'jq' not found."
 echo "Attempting to install it automatically (requires sudo or Termux)..."
@@ -23,14 +39,14 @@ exit 1
 fi
 fi
 
-# --- 2. Environment Detection ---
+# --- Environment Detection
 if[ -d "/data/data/com.termux" ] || [ -f "/system/bin/pm" ]; then
 EXEC="pm uninstall -k --user 0"
 else
 EXEC="adb shell pm uninstall -k --user 0"
 fi
 
-# --- 3. Configuration ---
+# --- Configuration ---
 FILE_T1="./ruvomain_tier1_stable.json"
 FILE_T2="./ruvomain_tier2_stable.json"
 FILE_T3="./ruvomain_tier3_stable.json"
@@ -57,7 +73,7 @@ echo "Error: File$JSON_FILE not found."
 exit 1
 fi
 
-# --- 4. Confirmation ---
+# --- Confirmation ---
 echo"--- Warning ---"
 echo "You are about to apply $TIER."
 read -p "Are you sure you want to proceed? (y/N): " confirm
@@ -69,7 +85,7 @@ fi
 
 echo "--- Deploying: $JSON_FILE ---"
 
-# --- 5. Execution ---
+# --- Execution ---
 for pkg in $(jq -r '.apps[].packageName'"$JSON_FILE"); do
 echo "Processing: $pkg"
 $EXEC "$pkg"
