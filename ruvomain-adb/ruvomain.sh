@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# Ruvomain Protocol - Industrialized Debloating
+# Author: Romain Ruvira (Ruvyrom)
+# License: MIT
 
 # --- 1. Dependency Check (Auto-install jq) ---
 if ! command -v jq &> /dev/null; then
