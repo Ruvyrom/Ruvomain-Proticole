@@ -69,7 +69,7 @@ esac
 
 # Check if the file exists
 if [ ! -f "$JSON_FILE" ]; then
-echo "Error: File$JSON_FILE not found."
+echo "Error: File $JSON_FILE not found."
 exit 1
 fi
 
@@ -86,7 +86,7 @@ fi
 echo "--- Deploying: $JSON_FILE ---"
 
 # --- Execution ---
-for pkg in $(jq -r '.apps[].packageName'"$JSON_FILE"); do
+for pkg in $(jq -r '.apps[].packageName' "$JSON_FILE"); do
 echo "Processing: $pkg"
 $EXEC "$pkg"
 done
