@@ -35,8 +35,6 @@ The conventional approach to "debloating" (manually running random ADB commands)
 
 We don't "trick" the system; we curate it. By surgically removing non-essential services while maintaining framework stability, we ensure the device performs at its peak potential.
 
-Before use Tier3, you must read [REMPLACEMENT.md](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/REMPLACEMENT.md)
-
 ---
 ## 📦 Protocol Hierarchy
 The protocol is modular, allowing users to choose their level of optimization:
@@ -48,6 +46,8 @@ The protocol is modular, allowing users to choose their level of optimization:
 | **Tier 3 (Surgical/Extreme)** | Ghost Mode (System Core) | Advanced users building a bare-metal experience. |
 
 *See `/presets` for Canta .json configuration files.*
+
+**⚠️ Before use Tier3, you must read [REMPLACEMENT.md](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/REMPLACEMENT.md)**
 
 ---
 ## ⚙️ Quick Start
