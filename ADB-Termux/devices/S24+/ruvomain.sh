@@ -6,12 +6,12 @@ REQUIRED_MODEL="SM-S926B"
 CURRENT_MODEL=$(getprop ro.product.model 2>/dev/null || adb shell getprop ro.product.model)
 
 if [ "$CURRENT_MODEL" != "$REQUIRED_MODEL" ]; then
-echo"⚠️ WARNING: Detected device model: $CURRENT_MODEL"
+echo "⚠️ WARNING: Detected device model: $CURRENT_MODEL"
 echo "This script is specifically optimized for the $REQUIRED_MODEL."
 echo "Running it on a different model may cause system instability or bootloops."
 read -p "Do you want to proceed anyway? (y/N) " choice
 case "$choice" in
-y|Y ) echo"Proceeding with caution..." ;;
+y|Y ) echo "Proceeding with caution..." ;;
 * ) echo "Safety abort. Operation cancelled."; exit 1 ;;
 esac
 fi
@@ -40,7 +40,7 @@ fi
 fi
 
 # --- Environment Detection
-if[ -d "/data/data/com.termux" ] || [ -f "/system/bin/pm" ]; then
+if [ -d "/data/data/com.termux" ] || [ -f "/system/bin/pm" ]; then
 EXEC="pm uninstall -k --user 0"
 else
 EXEC="adb shell pm uninstall -k --user 0"
@@ -55,7 +55,7 @@ echo "========================================"
 echo "   RUVOMAIN PROTOCOL - DEPLOYMENT      "
 echo "========================================"
 echo "1) Apply Tier 1 (Safe)"
-echo "2) ApplyTier 2 (Balanced)"
+echo "2) Apply Tier 2 (Balanced)"
 echo "3) Apply Tier 3 (Extreme)"
 echo "----------------------------------------"
 read -p "Your choice (1-3): " choice
