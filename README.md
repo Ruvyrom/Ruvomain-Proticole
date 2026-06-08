@@ -22,7 +22,6 @@ This hasn't been a linear process. You’ll find notes here on things that went 
 The Ruvomain Protocol is a modular, audited, and reproducible architecture designed to maximize hardware efficiency for the Samsung Galaxy S24+ (Exynos 2400) without root access. By eliminating non-essential telemetry and background bloatware, we achieve true "Deep Sleep" states, elite thermal management, and 11h+ SOT.
 
 ---
-
 ## 🚀 Key Results (One UI 8.5)
 *   **SoT:** **11h+** on a single charge.
 *   **Idle Drain:** **~0.0%/h** (Near-zero).
@@ -31,14 +30,14 @@ The Ruvomain Protocol is a modular, audited, and reproducible architecture desig
 *   **Knox Integrity:** **100% Safe** (No root, no bootloader unlocking).
 
 ---
-
 ## 💡  Philosophy
 The conventional approach to "debloating" (manually running random ADB commands) is obsolete. It lacks consistency and is impossible to maintain. **The Ruvomain Protocol** shifts this paradigm by treating system optimization as an **industrialized engineering process**.
 
 We don't "trick" the system; we curate it. By surgically removing non-essential services while maintaining framework stability, we ensure the device performs at its peak potential.
 
----
+Before use Tier3, you must read [REMPLACEMENT.md](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/REMPLACEMENT.md)
 
+---
 ## 📦 Protocol Hierarchy
 The protocol is modular, allowing users to choose their level of optimization:
 
@@ -51,7 +50,6 @@ The protocol is modular, allowing users to choose their level of optimization:
 *See `/presets` for Canta .json configuration files.*
 
 ---
-
 ## ⚙️ Quick Start
 ### 📱 Methode 1: via Shizuku and Canta
 1.  **Environment:** Install [Shizuku](https://shizuku.rikka.app/) and[Canta](https://samolego.github.io/Canta/).
@@ -105,7 +103,6 @@ Navigation issues
 *   **Auditing:** Every package included in our tiers is verified for stability. Users are encouraged to inspect the lists in /docs/[package-list.md](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/package-list.md).
 
 ---
-
 ## 🛠️ Monitoring Strategy
 Avoid heavy "Good Guardian" suites that introducetheir own background overhead. Use **Direct-Access Monitoring**:
 *   **Thermal Guardian:** Install the APK, skipthe suite launcher.
@@ -113,7 +110,6 @@ Avoid heavy "Good Guardian" suites that introducetheir own background overhead. 
 *   **Rule:** If the idle discharge rate doesn't drop after a tweak, the optimization is invalid.
 
 ---
-
 ##👥 Community & Credits
 This protocol is a living project.
 *   **Validation:** Rigorous cross-verification with [Willie_169](https://github.com/Willie169).
@@ -137,6 +133,7 @@ This is the visual and functional result of the Ruvomain Protocol applied to a S
 
 <img src="assets/launcher.jpg" width="400"><img src="assets/launcher2.jpg" width="400"><img src="assets/quick-settings.jpg" width="400"><img src="assets/quick-settings2.jpg" width="400">
 
+---
 ## ✅ Current Status:
 Stable environment. No critical system crashes or UI stutters detected in daily driving.
 
