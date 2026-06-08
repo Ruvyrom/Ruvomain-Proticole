@@ -1,0 +1,50 @@
+{
+  "name": "Ruvomain Protocol T3",
+  "description": "Tier 1 - Replacement Required (Advanced)",
+  "createdDate": 1780047654302,
+  "version": "1.0",
+  "apps": [
+    {
+      "packageName": "com.samsung.android.honeyboard"
+    },
+    {
+      "packageName": "com.touchtype.swiftkey"
+    },
+    {
+      "packageName": "com.sec.android.app.SecSetupWizard"
+    },
+    {
+      "packageName": "com.google.android.setupwizard"
+    },
+    {
+      "packageName": "android.autoinstalls.config.samsung"
+    },
+    {
+      "packageName": "com.samsung.android.app.contacts"
+    },
+    {
+      "packageName": "com.sec.android.widgetapp.easymodecontactswidget"
+    },
+    {
+      "packageName": "com.google.android.verifier"
+    },
+    {
+      "packageName": "com.google.android.verifier.overlay"
+    },
+    {
+      "packageName": "com.samsung.android.authfw"
+    },
+    {
+      "packageName": "com.samsung.android.knox.attestation"
+    },
+    {
+      "packageName": "com.samsung.android.knox.er"
+    },
+    {
+      "packageName": "com.samsung.android.knox.mpos"
+    },
+    {
+      "packageName": "com.sec.bcservice"
+    }
+   ]
+  }
