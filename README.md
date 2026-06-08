@@ -19,7 +19,7 @@ This hasn't been a linear process. You’ll find notes here on things that went 
 # Ruvomain Protocol
 **The Industrialized Approach to Android Performance & Privacy.**
 
-The Ruvomain Protocol is a modular, audited, and reproducible architecture designed to maximize hardware efficiency for the Samsung Galaxy S24+ (Exynos 2400) without rootaccess. By eliminating non-essential telemetry and background bloatware, we achieve true "Deep Sleep" states, elite thermal management, and 11h+ SOT.
+The Ruvomain Protocol is a modular, audited, and reproducible architecture designed to maximize hardware efficiency for the Samsung Galaxy S24+ (Exynos 2400) without root access. By eliminating non-essential telemetry and background bloatware, we achieve true "Deep Sleep" states, elite thermal management, and 11h+ SOT.
 
 ---
 
@@ -32,8 +32,8 @@ The Ruvomain Protocol is a modular, audited, and reproducible architecture desig
 
 ---
 
-## 💡 The Philosophy
-The conventional approach to "debloating" (manually running randomADB commands) is obsolete. It lacks consistency and is impossible to maintain. **The Ruvomain Protocol** shifts this paradigm by treating system optimization as an **industrialized engineering process**.
+## 💡  Philosophy
+The conventional approach to "debloating" (manually running random ADB commands) is obsolete. It lacks consistency and is impossible to maintain. **The Ruvomain Protocol** shifts this paradigm by treating system optimization as an **industrialized engineering process**.
 
 We don't "trick" the system; we curate it. By surgically removing non-essential services while maintaining framework stability, we ensure the device performs at its peak potential.
 
@@ -48,16 +48,42 @@ The protocol is modular, allowing users to choose their level of optimization:
 | **Tier 2 (Advanced/Balanced)** | AI Telemetry & Cloud Bloat | Users prioritizing privacy & efficiency. |
 | **Tier 3 (Surgical/Extreme)** | Ghost Mode (System Core) | Advanced users building a bare-metal experience. |
 
-*See `/presets` for configuration files.*
+*See `/presets` for Canta .json configuration files.*
 
 ---
 
 ## ⚙️ Quick Start
+### Methode 1: via Shizuku and Canta
 1.  **Environment:** Install [Shizuku](https://shizuku.rikka.app/) and[Canta](https://samolego.github.io/Canta/).
 2.  **Activate:** Enable Developer Options > Wireless Debugging. Pair Shizuku.
 3.  **Deploy:** Import the preferred `.json` file from the `/Presets` folder into Canta.
 4.  **Finalize:** Reboot the device.
 
+### Methode 2: via ADB or Termux
+For users seeking direct control and automation.
+
+- Automatically detects if it's running via ADB (PC) or directly on the device (Termux).
+
+- Automatically installs `jq` if missing.
+
+- Choose between Safe, Balanced, and Extreme debloating profiles.
+
+- Transparent, modular, and easy to audit.
+
+- Compatible with Linux distro:
+Debian/Ubuntu/Mint/Kali
+Arch Linux
+Fedora/CentOS/RHEL
+
+1. **Prerequisites:**
+- [Platform-Tools](https://developer.android.com/tools/releases/platform-tools) installed (for PC).
+- `jq` (The script will attempt an auto-install if missing).
+
+2. **Deployment:**
+- Clone the repo: `git clone https://github.com/Ruvyrom/ruvyrom.git`
+- Navigate: `cd ruvyrom/ruvomain-adb`
+- Execute:
+`chmod +x ruvomain.sh && ./ruvomain.sh`
 ---
 
 ## 🛡️ Safety & Auditing
