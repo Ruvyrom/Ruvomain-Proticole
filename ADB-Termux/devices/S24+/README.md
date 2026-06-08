@@ -23,3 +23,5 @@ Deployment:
 2.Navigate: cd ruvyrom/ruvomain-adb
 
 3.Execute: chmod +x ruvomain.sh && ./ruvomain.sh
+
+*Note: If you are on Termux, ensure youhave run `termux-setup-storage` and allowed storage permissions first.*
