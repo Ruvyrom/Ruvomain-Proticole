@@ -3,7 +3,7 @@ This list is optimized for S24+ (Exynos). Use Tier 3 with caution if you relyon 
 ### 🟢 TIER 1: Redundancy & Telemetry (Safe)
 Useless software layers or redundant telemetry services. No impact on core One UI functionality.
  
-• Bixby & Assistants:
+**• Bixby & Assistants:**
 com.samsung.android.bixby.agent:
 Bixby voice assistant
 com.samsung.android.bixbyvision.framework:
@@ -11,7 +11,7 @@ Bixby image recognition engine.
 com.samsung.android.visionintelligence:
 Dedicated vision AI
  
-• Personalization & UI Services:
+**• Personalization & UI Services:**
 com.samsung.android.app.taskedge:
 Edge panel functionality
 com.samsung.android.aircommandmanager:
@@ -25,7 +25,7 @@ USB-C audio accessorymanagement
 •com.samsung.android.inputshare:
 Multi-device keyboard/mouse sharing
  
-• Telemetry & Diagnostics:
+**• Telemetry & Diagnostics:**
 com.samsung.android.dqagent:
 Samsung Quality Agent
 com.android.devicediagnostics:
@@ -39,7 +39,7 @@ System log reporting service
 com.sec.android.app.factorykeystring:
 Factory test keys/logs
  
-• Device Services:
+**• Device Services:**
 com.samsung.android.beaconmanager:
 Proximity beacon manager
 mcom.samsung.android.mcfds:
@@ -49,7 +49,7 @@ Multi-device development kit
 com.samsung.cmh: Samsung Connection Manager
 com.samsung.android.mcf.autohotspot: Auto-hotspot functionality
  
-• Multimedia & AR:
+**• Multimedia & AR:**
 com.sec.android.mimage.avatarstickers/aremojieditor:
 AR Emojicreation and management.
 com.android.avatarpicker:
@@ -67,7 +67,7 @@ Advanced video camera settings.
 com.android.dreams.basic/phototable:
 Interactive screensavers.
  
-• Miscellaneous:
+**• Miscellaneous:**
 com.android.egg:
 Android Easter egg.
 com.samsung.android.brightnessbackupservice:
