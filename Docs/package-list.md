@@ -84,8 +84,10 @@ Presence and context sensors.
 ---
 ### 🟡 TIER 2: Optional Features (Moderate)
 Ecosystem-related services. Disable only if you do not use these features.
+
+**Tier 1 and:**
  
-• Samsung Ecosystem:
+**• Samsung Ecosystem:**
 com.samsung.android.mydevice:
 "My Device" / support app.
 com.samsung.android.mdecservice:
@@ -95,7 +97,7 @@ Smart Switch data transfer.
 com.samsung.android.callbgprovider:
 Personalized call backgrounds.
  
-• Google/Cloud Services:
+**• Google/Cloud Services:**
 com.google.ar.core:
 Augmented Reality service.
 com.google.android.aicore/aicore.services:
@@ -114,7 +116,7 @@ Connected health data.
 com.google.android.adservices.api:
 Google advertisingservices.
  
-• Connectivity:
+**• Connectivity:**
 com.samsung.android.net.wifi.wifiguider:
 Samsung Wi-Fi guide.
 com.samsung.android.audiomirroring:
@@ -126,7 +128,7 @@ Bluetooth MIDI support.
 com.android.ons:
 OpportunisticNetworkService (network switching).
  
-• Security/Knox:
+**• Security/Knox:**
 com.samsung.android.knox.attestation
 com.samsung.android.knox.er
 com.samsung.android.knox.mpos:
@@ -134,7 +136,7 @@ Knox services (Enterprise/Payment).
 com.samsung.android.authfw:
 Samsung authentication framework.
  
-• System & Miscellaneous:
+**• System & Miscellaneous:**
 com.sec.hearingadjust:
 Sound adaptation (Adapt Sound)
 com.samsung.android.app.omcagent:
@@ -161,13 +163,15 @@ Network Broadcast service.
 ---
 ### 🔴⚠️ TIER 3: Replacement Required (Advanced) Fundamental packages.
 Disable only after installing a viable alternative.
+
+**Tier 1 + tier 2 and:**
  
-• Keyboard:
+**• Keyboard:**
 com.samsung.android.honeyboard
 com.touchtype.swiftkey
 (Default keyboards).
  
-• Interface/Setup:
+**• Interface/Setup:**
 com.sec.android.app.SecSetupWizard:
 Post-reset Samsung setup wizard
 com.google.android.setupwizard:
@@ -175,16 +179,16 @@ Post-reset Google setup wizard
 android.autoinstalls.config.samsung:
 Automatic app installation on first boot.
  
-• Communication:
+**• Communication:**
 com.samsung.android.app.contacts
 com.sec.android.widgetapp.easymodecontactswidget
 (Contact management)
  
-• Camera Core:
+**• Camera Core:**
 com.sec.android.app.camera
 (Native camera interface).
  
-• System Security:
+**• System Security:**
 com.google.android.verifier,
 com.google.android.verifier.overlay
 (Play Protect security verification).
