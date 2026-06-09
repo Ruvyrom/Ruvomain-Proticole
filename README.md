@@ -21,6 +21,11 @@ This hasn't been a linear process. You’ll find notes here on things that went 
 
 The Ruvomain Protocol is a modular, audited, and reproducible architecture designed to maximize hardware efficiency for the Samsung Galaxy S24+ (Exynos 2400) without root access. By eliminating non-essential telemetry and background bloatware, we achieve true "Deep Sleep" states, elite thermal management, and 11h+ SOT.
 
+### Why this approach?
+*Some ask: "Why a protocol instead of just a simple list?"*
+
+**Ruvomain is built for sustainability, not one-off use.** Unlike static lists that break with every OS update, Ruvomain uses a modular JSON-based architecture. This ensures **safe, consistent, and maintainable optimization** that evolves with your device—so you don't have to rebuild your debloat list from scratch every time Samsung pushes an update.
+
 ---
 ## 🚀 Key Results (One UI 8.5)
 *   **SoT:** **11h+** on a single charge.
