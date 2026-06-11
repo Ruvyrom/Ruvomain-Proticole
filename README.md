@@ -133,16 +133,32 @@ This protocol is a living project.
 <img src="assets/accu-93.jpg" width="400"><img src="assets/battery-s.jpg" width="400"><img src="assets/thermalg.jpg" width="400"> <img src="assets/thermalg-cpu.jpg" width="400"> <img src="assets/thermalg-temp.jpg" width="400">
 
 ## 🧪 Interface:
-This is the visual and functional result of the Ruvomain Protocol applied to a Samsung S24+ (Exynos 2400). This is not a Custom ROM; it is the Samsung OS, deconstructed and liberated from its servitude.
 
-- **Architecture:** Knox remains intact, no root required.
+This is the visual and functional result **Setup: Ruvomain Protocol (SamsungS24+)**
 
-- **Efficiency:** Telemetry, intrusive AI services, and bloatware removed via logical isolation.
+I’ve completely reimagined the One UI experience. The goal was to reachan AOSP-like level of minimalism, responsiveness, and privacy, without sacrificing the hardware-level optimizations of the S24+ or tripping Knox.
 
-- **Control:** Total network isolation via local firewall (real-time visualization of blocked connection attempts).
+**The Architecture:**
 
-- **Result:** Zero latency, optimized battery life, and a clean, pure interface (Lawnchair). When hardware is no longer enslaved to manufacturer servers, it once again becomes a personal tool. Fluidity isn’t a "software update". It’s the result of removing useless background processes.
+**Launcher:** Lawnchair 15 (Customflow for maximum efficiency).
 
+**Icons:** Lawnicons (Material You adaptive).
+
+**UI/System:** Deep customization via Good Lock (Theme Park) for a consistent monochrome/monostyle aesthetic across QS panels, volume sliders, and settings.
+
+**Hardening:** System-level bloat removal and telemetry isolation via the"Ruvomain Protocol" (Shizuku, Canta, AppOps).
+
+**Network:** Adguard + Nextdns, no advertisement, no tracking, no telemetry.
+
+**Weather:** Breezy Weather (Open-source, no telemetry).
+
+**Keyboard:** HeliBoard (Open-source, local-only).
+
+**Apps:** Full migration to the \*\*Fossify Suite\*\* (Phone, Messages, Gallery, Calendar, Calculator).
+
+**Why:** By switching to the Fossify ecosystem, I've eliminated telemetry at the app level. No tracking, no background fluff, just pure functionality. The interface is now unified, silent, and incredibly responsive. Knox remains 100% intact.
+
+**Philosophy:** This isn't just a theme; it's a workflow. By removing the intrusive Samsung services and remapping the UI, I've managed to reduce background activity to near-zero levels. The interface is now"silent," allowing for pure focus.
 <img src="assets/launcher.jpg" width="400"><img src="assets/launcher2.jpg" width="400"><img src="assets/quick-settings.jpg" width="400"><img src="assets/quick-settings2.jpg" width="400">
 
 ---
