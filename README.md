@@ -2,7 +2,7 @@
 <img src="https://img.shields.io/badge/github-repo-blue?logo=github">
 <img src="https://img.shields.io/badge/S24+_Exynos-Optimized-brightgreen" alt="Device">
 <img src="https://img.shields.io/badge/Status-Stable-blue" alt="Status">
-<img src="https://img.shields.io/badge/OneUI-8.5-#6C63FF" alt="OS">
+<img src="https://img.shields.io/badge/OneUI-8.5-#6C63FF">
 <img src="https://img.shields.io/badge/License-MIT-blueviolet" alt="License">
 <img src="https://img.shields.io/badge/OS-Android 16 OneUI 8.5-red" alt="License">
 <img src="https://img.shields.io/badge/No-Root-yellow">
