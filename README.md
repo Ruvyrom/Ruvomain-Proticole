@@ -109,7 +109,8 @@ Instead of uninstalling, we use a "Containment Strategy":
 
 **2.** Use AppOps to revoke all permissions (Contacts, Storage, etc.) and restrict background execution for the Samsung Keyboard.
 
-**3.** The package remains present to satisfysystem dependencies but is effectively neutralized and isolated.
+**3.** The package remains present to satisfy system dependencies but is effectively neutralized and isolated.
+
 ---
 *   **Critical Safeguards:** Do **not** disable packages like `com.sec.location.nsflp2` (GPS) or `com.samsung.android.smartmirroring`(Smart View).
 *   **System Integrity:** Avoid removing `com.samsung.android.lool` (Device Care). Disabling it may cause audio stuttering and erratic behavior during app transitions, as ithandles key background resource management.
